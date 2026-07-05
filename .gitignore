@@ -1,0 +1,21 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependencies and builds
+node_modules/
+dist/
+build/
+.next/
+.vercel/
+
+# Logs and local files
+*.log
+.DS_Store
+coverage/
+
+# n8n local data
+n8n_data/
